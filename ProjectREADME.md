@@ -1,67 +1,18 @@
-# Model Context Protocol
+# Model Context Protocol (MCP) – Python Implementation
 
-A Python project that implements the Model Context Protocol for enhanced language model interactions.
+> 🚨 **Author: Lamaq Mujpurwala**  
+> 📅 Created: June 2025  
+> 📜 License: All Rights Reserved – This project is for educational and demonstration purposes only.  
+> ❌ Reproduction or commercial use of this code without written permission is strictly prohibited.
 
-## Prerequisites
 
-- Python 3.11 or higher
-- pip (Python package installer)
-- A virtual environment manager (recommended)
+---
 
-## Installation
+Would you like me to:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/model-context-protocol.git
-cd model-context-protocol
-```
+- Generate a matching `LICENSE` file?
+- Add a `.gitignore` and `.env.example`?
+- Help you set up GitHub secrets or project tags for better discovery?
 
-2. Create and activate a virtual environment:
-```bash
-# Using venv
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```
 
-3. Install dependencies:
-```bash
-pip install -e .
-```
-
-## Environment Setup
-
-1. Create a `.env` file in the root directory with your API keys:
-```env
-GROQ_API_KEY=your_groq_api_key
-OPENAI_API_KEY=your_openai_api_key
-```
-
-## Project Structure
-
-- `codeserver/`: Contains the code server implementation
-- `server/`: Server-related code
-- `docs/`: Project documentation
-- `main.py`: Main entry point of the application
-
-## Running the Project
-
-To run the project:
-
-```bash
-python main.py
-```
-
-## Development
-
-The project uses modern Python tooling:
-- `pyproject.toml` for dependency management
-- `uv.lock` for dependency locking
-- `.python-version` for Python version specification
-
-## License
-
-[Add your license information here]
-
-## Contributing
-
-[Add contribution guidelines here]
+> ⚠️ Note: This project uses the open-source MCP SDK (MIT Licensed). This repository itself is for demonstration purposes and retains custom licensing. See LICENSE for terms.
